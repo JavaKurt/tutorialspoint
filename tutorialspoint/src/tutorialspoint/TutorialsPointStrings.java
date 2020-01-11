@@ -9,7 +9,12 @@ package tutorialspoint;
  *
  * @author Kurtis
  */
-public class Tutorialspoint {
+public class TutorialsPointStrings {
+    public static void main(String[] args){
+        creatingAFormat();
+        oneTimeFormat();
+        
+    }
     
     public static void lowercaseStringToCaps(){
         String str = new String("Welcome to Tutorialspoint.com");
@@ -103,13 +108,13 @@ public class Tutorialspoint {
     5. boolean contentEquals(StringBuffer sb) - Returns true if and only if this String represents the same sequence of characters as the specified StringBuffer
     6. static String copyValueOf(char[] data) - Returns a String that represents the character sequence in the array specified.
     7. static String copyValueOf(char[] data, int offset, int count)- Returns a String that represents the character sequence in the array specified.
-    8. 	boolean equals(Object anObject) - Compares this string to the specified object.   
+    8. boolean equals(Object anObject) - Compares this string to the specified object.   
     9. String replace(char oldChar, char newChar) - Returns a new string resulting from replacing all occurrences of oldChar in this string with newChar.
     10. String replaceAll(String regex, String replacement - Replaces each substring of this string that matches the given regular expression with the given replacement.
     11. String replaceFirst(String regex, String replacement) - Replaces the first substring of this string that matches the given regular expression with the given replacement.
     12. String substring(int beginIndex) - Returns a new string that is a substring of this string.
     13. String substring(int beginIndex, int endIndex) - Returns a new string that is a substring of this string.
-    14. har[] toCharArray() - Converts this string to a new character array.
+    14. char[] toCharArray() - Converts this string to a new character array.
     15. String toLowerCase() - Converts all of the characters in this String to lower case using the rules of the default locale.
     16. String toLowerCase(Locale locale) - Converts all of the characters in this String to lower case using the rules of the given Locale.
     17. String toUpperCase(Locale locale) - Converts all of the characters in this String to upper case using the rules of the given Locale.
